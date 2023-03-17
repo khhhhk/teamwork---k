@@ -19,40 +19,53 @@ public class BookDto {
 		this.date = date;
 	}
 
-	public String getid() {
+	public String getId() {
 		return id;
 	}
+
 	public void setId(String id) {
 		this.id = id;
 	}
-	public String gettitle() {
+
+	public String getTitle() {
 		return title;
 	}
+
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public String getpublisher() {
+
+	public String getPublisher() {
 		return publisher;
 	}
+
 	public void setPublisher(String publisher) {
 		this.publisher = publisher;
 	}
-	public String getisbn() {
+
+	public String getIsbn() {
 		return isbn;
 	}
-	public void setisbn(String isbn) {
+
+	public void setIsbn(String isbn) {
 		this.isbn = isbn;
 	}
-	public String getauthor() {
-		return author ;
+
+	public String getAuthor() {
+		return author;
 	}
-	public void setauthor(String author) {
+
+	public void setAuthor(String author) {
 		this.author = author;
 	}
-	public String getdate() {
-		return date ;
+
+	public String getDate() {
+		return date;
 	}
-	public void setdate(String date) {
+
+	public void setDate(String date) {
 		this.date = date;
 	}
+
+	
 }
